@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Blackitalic.eot');
+    src: local('Migrena Grotesque Black italic'), local('Migrena_Grotesque-Blackitalic'),
+        url('Migrena_Grotesque-Blackitalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Blackitalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-Blackitalic.woff') format('woff'),
+        url('Migrena_Grotesque-Blackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Black.eot');
+    src: local('Migrena Grotesque Black'), local('Migrena_Grotesque-Black'),
+        url('Migrena_Grotesque-Black.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Black.woff2') format('woff2'),
+        url('Migrena_Grotesque-Black.woff') format('woff'),
+        url('Migrena_Grotesque-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Bolditalic.eot');
+    src: local('Migrena Grotesque Bold Italic'), local('Migrena_Grotesque-Bolditalic'),
+        url('Migrena_Grotesque-Bolditalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Bolditalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-Bolditalic.woff') format('woff'),
+        url('Migrena_Grotesque-Bolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Italic.eot');
+    src: local('Migrena Grotesque Italic'), local('Migrena_Grotesque-Italic'),
+        url('Migrena_Grotesque-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Italic.woff2') format('woff2'),
+        url('Migrena_Grotesque-Italic.woff') format('woff'),
+        url('Migrena_Grotesque-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Semibold.eot');
+    src: local('Migrena Grotesque Semibold'), local('Migrena_Grotesque-Semibold'),
+        url('Migrena_Grotesque-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Semibold.woff2') format('woff2'),
+        url('Migrena_Grotesque-Semibold.woff') format('woff'),
+        url('Migrena_Grotesque-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-UltraLightitalic.eot');
+    src: local('Migrena Grotesque UltraLight Italic'), local('Migrena_Grotesque-UltraLightitalic'),
+        url('Migrena_Grotesque-UltraLightitalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-UltraLightitalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-UltraLightitalic.woff') format('woff'),
+        url('Migrena_Grotesque-UltraLightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Bold.eot');
+    src: local('Migrena Grotesque Bold'), local('Migrena_Grotesque-Bold'),
+        url('Migrena_Grotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Bold.woff2') format('woff2'),
+        url('Migrena_Grotesque-Bold.woff') format('woff'),
+        url('Migrena_Grotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Light.eot');
+    src: local('Migrena Grotesque Light'), local('Migrena_Grotesque-Light'),
+        url('Migrena_Grotesque-Light.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Light.woff2') format('woff2'),
+        url('Migrena_Grotesque-Light.woff') format('woff'),
+        url('Migrena_Grotesque-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-ExtraLight.eot');
+    src: local('Migrena Grotesque ExtraLight'), local('Migrena_Grotesque-ExtraLight'),
+        url('Migrena_Grotesque-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-ExtraLight.woff2') format('woff2'),
+        url('Migrena_Grotesque-ExtraLight.woff') format('woff'),
+        url('Migrena_Grotesque-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Regular.eot');
+    src: local('Migrena Grotesque'), local('Migrena_Grotesque-Regular'),
+        url('Migrena_Grotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Regular.woff2') format('woff2'),
+        url('Migrena_Grotesque-Regular.woff') format('woff'),
+        url('Migrena_Grotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Thin.eot');
+    src: local('Migrena Grotesque Thin'), local('Migrena_Grotesque-Thin'),
+        url('Migrena_Grotesque-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Thin.woff2') format('woff2'),
+        url('Migrena_Grotesque-Thin.woff') format('woff'),
+        url('Migrena_Grotesque-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-UltraLight.eot');
+    src: local('Migrena Grotesque UltraLight'), local('Migrena_Grotesque-UltraLight'),
+        url('Migrena_Grotesque-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-UltraLight.woff2') format('woff2'),
+        url('Migrena_Grotesque-UltraLight.woff') format('woff'),
+        url('Migrena_Grotesque-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Semibolditalic.eot');
+    src: local('Migrena Grotesque Semibold Italic'), local('Migrena_Grotesque-Semibolditalic'),
+        url('Migrena_Grotesque-Semibolditalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Semibolditalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-Semibolditalic.woff') format('woff'),
+        url('Migrena_Grotesque-Semibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Thinitalic.eot');
+    src: local('Migrena Grotesque Thin Italic'), local('Migrena_Grotesque-Thinitalic'),
+        url('Migrena_Grotesque-Thinitalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Thinitalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-Thinitalic.woff') format('woff'),
+        url('Migrena_Grotesque-Thinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque Extra';
+    src: url('Migrena_Grotesque-ExtraLightitalic.eot');
+    src: local('Migrena Grotesque Extra Light Italic'), local('Migrena_Grotesque-ExtraLightitalic'),
+        url('Migrena_Grotesque-ExtraLightitalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-ExtraLightitalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-ExtraLightitalic.woff') format('woff'),
+        url('Migrena_Grotesque-ExtraLightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Mediumitalic.eot');
+    src: local('Migrena Grotesque Medium Italic'), local('Migrena_Grotesque-Mediumitalic'),
+        url('Migrena_Grotesque-Mediumitalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Mediumitalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-Mediumitalic.woff') format('woff'),
+        url('Migrena_Grotesque-Mediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Lightitalic.eot');
+    src: local('Migrena Grotesque Light Italic'), local('Migrena_Grotesque-Lightitalic'),
+        url('Migrena_Grotesque-Lightitalic.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Lightitalic.woff2') format('woff2'),
+        url('Migrena_Grotesque-Lightitalic.woff') format('woff'),
+        url('Migrena_Grotesque-Lightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migrena Grotesque';
+    src: url('Migrena_Grotesque-Medium.eot');
+    src: local('Migrena Grotesque Medium'), local('Migrena_Grotesque-Medium'),
+        url('Migrena_Grotesque-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Migrena_Grotesque-Medium.woff2') format('woff2'),
+        url('Migrena_Grotesque-Medium.woff') format('woff'),
+        url('Migrena_Grotesque-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
