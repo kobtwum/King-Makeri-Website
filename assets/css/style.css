@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background-color:#f4eedc;
 }
 
 #header .logo {
@@ -167,7 +167,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #47b2e4;
+  color: #C0B45D;
+  font-style: italic;
+  font-weight: 600;
+  font-family: freightbigprobook;
 }
 
 .nav-menu .drop-down ul {
@@ -714,6 +717,131 @@ section {
   text-decoration: none;
 }
 
+/* ---------------------------------------------------------------
+Photos & Videos
+--------------------------------------------------------------- */
+.site-blocks-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  position: relative; }
+  .site-blocks-cover.overlay {
+    position: relative; }
+    .site-blocks-cover.overlay:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.2); }
+  .site-blocks-cover, .site-blocks-cover > .container > .row {
+    min-height: 600px;
+    height: calc(100vh); }
+  .site-blocks-cover h1 {
+    font-size: 100px;
+    font-weight: 500;
+    color: #C0B45D;
+    font-family: FreightBigProBook;
+    line-height: 1; }
+    @media (max-width: 991.98px) {
+      .site-blocks-cover h1 {
+        font-size: 4rem; } }
+  .site-blocks-cover .sub-text {
+    font-size: 1.4rem;
+    color: #15284b;
+    font-weight: 400;
+    font-family: Migrena Grotesque; }
+    @media (max-width: 991.98px) {
+      .site-blocks-cover .sub-text {
+        color: #000; } }
+  .site-blocks-cover .img-wrap {
+    position: absolute;
+    z-index: -1;
+    width: calc(100% - 50%);
+    top: 0;
+    height: 100%;
+    z-index: 2;
+    right: 50%;
+    min-height: 600px;
+    overflow: hidden;
+    border-bottom-right-radius: 200px; }
+    @media (max-width: 991.98px) {
+      .site-blocks-cover .img-wrap {
+        width: 100%;
+        right: 0%;
+        top: 0; }
+        .site-blocks-cover .img-wrap .hero-slider:before {
+          position: absolute;
+          content: "";
+          background: #fff;
+          opacity: .5;
+          z-index: 2;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0; } }
+    .site-blocks-cover .img-wrap .slide {
+      height: 100vh;
+      position: relative; }
+      .site-blocks-cover .img-wrap .slide img {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover; }
+  .site-blocks-cover .intro {
+    z-index: 3;
+    position: relative; }
+    .site-blocks-cover .intro .heading {
+      margin-left: -150px; }
+      @media (max-width: 991.98px) {
+        .site-blocks-cover .intro .heading {
+          margin-left: 0; } }
+    .site-blocks-cover .intro .text {
+      padding-left: 50px; }
+      @media (max-width: 991.98px) {
+        .site-blocks-cover .intro .text {
+          padding-left: 0; } }
+
+.site-menu-toggle .menu-text {
+  position: relative;
+  top: -6px;
+  text-transform: uppercase; }
+
+.hero-slider .owl-nav {
+  position: absolute;
+  bottom: 120px;
+  right: 50px;
+  z-index: 100; }
+  .hero-slider .owl-nav .owl-prev, .hero-slider .owl-nav .owl-next {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #007bff;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.3rem; }
+    .hero-slider .owl-nav .owl-prev span, .hero-slider .owl-nav .owl-next span {
+      color: #fff;
+      font-size: 30px; }
+    .hero-slider .owl-nav .owl-prev:active, .hero-slider .owl-nav .owl-prev:focus, .hero-slider .owl-nav .owl-next:active, .hero-slider .owl-nav .owl-next:focus {
+      outline: none; }
+
+.btn-pill {
+  border-radius: 30px;
+  padding: 15px 30px;
+  border-color: #15284b;
+  color: #15284b; }
+  .btn-pill:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #000; }
+
 
 /*--------------------------------------------------------------
 # Why Us
@@ -953,9 +1081,9 @@ section {
   font-style:italic;
   white-space: nowrap;
 
-  -moz-animation: marquee 50s linear infinite;
-        -webkit-animation: marquee 50s linear infinite;
-        animation: marquee 50s linear infinite;
+  -moz-animation: marquee 30s linear infinite;
+        -webkit-animation: marquee 30s linear infinite;
+        animation: marquee 30s linear infinite;
       }
       @-moz-keyframes marquee {
         0% {
@@ -1026,6 +1154,48 @@ section {
     justify-content: flex-end;
   }
 }
+
+
+/*--------------------------------------------------------------
+# git
+--------------------------------------------------------------*/
+.git .borders{
+  border-top: 2px solid #2626264f;;
+  border-bottom: 2px solid #2626264f;;
+  padding: 130px 0px 130px 0px;
+  margin: 30px 0px 30px 0px;
+}
+.git-text{
+text-align:center;
+}
+
+.git-text h3{
+  font-size:17px;
+  font-family: Migrena Grotesque;
+  color:#C0B45D;
+}
+
+.git h3:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 1.6px;
+  background: #C0B45D;
+  top:30px;
+  left: calc(50% - 100px);
+}
+
+
+.git p{
+  font-size:17px;
+  font-family: Migrena Grotesque;
+  color:#15284b;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+.git
 
 /*--------------------------------------------------------------
 # Portfolio
