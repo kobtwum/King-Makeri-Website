@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #15284b;
 }
 
 .mobile-nav {
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: #15284b;
 }
 
 /*--------------------------------------------------------------
@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   text-align: center;
-  margin: 0 0 10px 0;
+  margin: 40px 0 10px 0;
   font-size: 110px;
   font-weight: 500;
   line-height: 120px;
