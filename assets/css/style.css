@@ -836,11 +836,14 @@ Photos & Videos
   border-radius: 30px;
   padding: 15px 30px;
   border-color: #15284b;
-  color: #15284b; }
+  color: #15284b; 
+  transition:all 0.25s ease-in;
+}
+
   .btn-pill:hover {
-    background: #fff;
-    border-color: #fff;
-    color: #000; }
+    background-color: #f4eedc;
+    border-color:#fff;
+    color: #15284b; }
 
 
 /*--------------------------------------------------------------
@@ -1620,19 +1623,17 @@ text-align:center;
 }
 
 #contact .getbutton{
-  width: 150px;
-  height: 60px;
-  margin-top: 12px;
-  border:0px;
-  color:#C0B45D;
-  font-weight:600;
+  border-radius: 30px;
+  padding: 15px 30px;
+  border-color: #15284b;
+  color: #15284b; 
   transition:all 0.25s ease-in;
-  background-color: #15284b;
 }
 
 #contact .getbutton:hover{
-  transform: scale(1.1);
-  color:#f5f8fc;
+  color:#15284b;
+  background-color: #fff;
+  border-color: #f4eedc;
 }
 
 
